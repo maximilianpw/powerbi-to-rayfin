@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.local/
+playwright-report/
+test-results/
+.env
+.env.*
+*.pbix
+*.pbip
+*.tmdl
+.DS_Store

@@ -5,7 +5,14 @@ playwright-report/
 test-results/
 .env
 .env.*
+# Never commit imported Power BI projects or their model/report folders.
 *.pbix
 *.pbip
+*.pbir
+*.pbit
+*.pbism
 *.tmdl
+*.Report/
+*.SemanticModel/
+*.Dataset/
 .DS_Store
